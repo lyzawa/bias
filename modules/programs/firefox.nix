@@ -48,20 +48,20 @@
 
             # fonts
             "browser.display.use_document_fonts" = 1;
-            "font.name.monospace.x-western" = config.theme.font.monoFont;
-            "font.name.sans-serif.x-western" = config.theme.font.uiFont;
-            "font.name.serif.x-western" = config.theme.font.uiFont;
+            # "font.name.monospace.x-western" = config.theme.font.monoFont;
+            # "font.name.sans-serif.x-western" = config.theme.font.uiFont;
+            # "font.name.serif.x-western" = config.theme.font.uiFont;
             "font.size.variable.x-western" = 16;
             "font.size.monospace.x-western" = 16;
 
             "toolkit.legacyUserProfileCustomizations.stylesheets" = true;
           };
 
-          userContent = ''
-            *:not([data-cds="Icon"]) {
-            font-family: "${config.theme.font.uiFont}" !important;
-            }
-          '';
+          # userContent = ''
+          #   *:not([data-cds="Icon"]) {
+          #   font-family: "${config.theme.font.uiFont}" !important;
+          #   }
+          # '';
 
           search = import ../../config/search-config.nix { inherit pkgs; };
         };
