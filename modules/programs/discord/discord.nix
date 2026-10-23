@@ -357,7 +357,7 @@
                   {
                     name = "kkinstagram-source";
                     find = ''https?:\/\/(?:www\.)?instagram\.com\/((?:[a-zA-Z0-9_.]+\/)?(?:p|reels?|tv)\/[a-zA-Z0-9_-]+)(?!\S*src)\S*'';
-                    replace = "[[source]](https://kkinstagram.com/$1)";
+                    replace = "[[source]](https://d.oginstagram.com/$1)";
                     onlyIfIncludes = "";
                     scope = "myMessages";
                     id = "7c3e9a52-1b84-4f6d-a0e7-5d2b8c914f36";
