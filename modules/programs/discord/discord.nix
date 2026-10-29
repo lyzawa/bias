@@ -334,6 +334,9 @@
               NoNitroUpsell = {
                 enabled = true;
               };
+              ClipUpload = {
+                enabled = true;
+              };
               TextReplace = {
                 enabled = true;
                 stringRules = [ ];
