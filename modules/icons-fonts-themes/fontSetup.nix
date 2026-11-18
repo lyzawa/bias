@@ -72,6 +72,7 @@
         noto-fonts-color-emoji
         berkeleyMono
         sanFranciscoText
+        roboto
       ];
     };
 }
